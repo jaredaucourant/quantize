@@ -162,3 +162,6 @@ var zapp = new SampleApp();
 zapp.initialize();
 zapp.start();
 
+
+// serve static assets
+        self.app.use('images', express.static(__dirname+'/images'));
