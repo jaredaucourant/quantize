@@ -119,6 +119,15 @@ var SampleApp = function() {
     self.initializeServer = function() {
         self.createRoutes();
         self.app = express.createServer();
+        self.app.configure(function(){
+            //self.app.use(express.cookieParser());
+            //self.app.use.(express.session({secret:"secret",key:"express.sid"}));
+            ['css', 'images', 'js'].forEach(function (dir){
+                self.app.use('/'+dir, express.static(__dirname+'/'+dir));
+            });
+            self.app.set('views', __dirname + '/views');
+            self.app.set('view engine', 'ejs');
+        });
 
         //  Add handlers for the app (from the routes).
         for (var r in self.routes) {
@@ -161,7 +170,3 @@ var SampleApp = function() {
 var zapp = new SampleApp();
 zapp.initialize();
 zapp.start();
-
-
-// serve static assets
-        self.app.use('images', express.static(__dirname+'/images'));
