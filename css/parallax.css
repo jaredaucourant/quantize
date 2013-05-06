@@ -1,0 +1,215 @@
+
+/* Preamble Parallax Styles 
+
+#preamble {
+	z-index: 100;
+	height: 1200px;
+	padding-top: 160px;
+	background-image:
+		url(img/preamble/madwell.png),
+		url(img/preamble/boy.png),
+		url(img/preamble/float1.png),
+		url(img/preamble/float2.png),
+		url(img/preamble/float3.png),
+		url(img/preamble/float4.png),
+		url(img/preamble/planet.png),
+		url(img/preamble/bottom_float.png);
+}
+
+#preamble .parallax-banner {
+	display: none;
+}
+
+/* Intro Parallax Styles 
+
+#intro {
+	z-index: 200;
+	background-image:
+		url(img/intro/quantize-1.png),
+		url(img/intro/quantize-2.png),
+		url(img/intro/quantize-3.png),
+		url(img/intro/quantize-4.png),
+		url(img/intro/quantize-5.png),
+		url(img/intro/background-1.png),
+		url(img/intro/background-2.png);
+}
+
+#stripe-intro a, #work-nav-intro a { background: #843A53; }
+#intro .parallax-banner:hover .parallax-more { color: #843A53; }
+#intro .parallax-stripe1 { background-color: #843A53; }
+#intro .parallax-stripe2 { background-color: #914361; }
+#intro .parallax-stripe3 { background-color: #9E4C6E; }
+#intro .parallax-stripe4 { background-color: #AA557C; }
+
+/* Overview Parallax Styles 
+
+#overview {
+	z-index: 300;
+	background-image:
+		url(img/overview/beach_fore.png),
+		url(img/overview/beach_back.png),
+		url(img/overview/beach_full.jpg);
+}
+
+#stripe-overview a, #work-nav-overview a { background: #E0224C; }
+#overview .parallax-banner:hover .parallax-more { color: #E0224C; }
+#overview .parallax-stripe1 { background-color: #E0224C; }
+#overview .parallax-stripe2 { background-color: #E52C5C; }
+#overview .parallax-stripe3 { background-color: #EA366E; }
+#overview .parallax-stripe4 { background-color: #EF4381; }
+
+/* Mood Matrix Parallax Styles 
+
+#moodmatrix {
+	z-index: 400;
+	background-image:
+		url(img/moodmatrix/moodmatrix_bar.png),
+		url(img/moodmatrix/moodmatrix_moon.png),
+		url(img/moodmatrix/moodmatrix_earth.png),
+		url(img/moodmatrix/moodmatrix.jpg);
+}
+
+#stripe-moodmatrix a, #work-nav-moodmatrix a { background: #111111; }
+#moodmatrix .parallax-banner:hover .parallax-more { color: #111111; }
+#moodmatrix .parallax-stripe1 { background-color: #111111; }
+#moodmatrix .parallax-stripe2 { background-color: #1A1A1A; }
+#moodmatrix .parallax-stripe3 { background-color: #232323; }
+#moodmatrix .parallax-stripe4 { background-color: #2D2D2D; }
+
+/* Hivemind Parallax Styles 
+
+#hivemind {
+	z-index: 500;
+	background-image:
+		url(img/hivemind/foodie_match1.png),
+		url(img/hivemind/foodie_match2.png),
+		url(img/hivemind/foodie_match3.png),
+		url(img/hivemind/foodie.jpg);
+}
+
+#stripe-hivemind a, #work-nav-hivemind a { background: #8DB74B; }
+#hivemind .parallax-banner:hover .parallax-more { color: #8DB74B; }
+#hivemind .parallax-stripe1 { background-color: #8DB74B; }
+#hivemind .parallax-stripe2 { background-color: #95BC51; }
+#hivemind .parallax-stripe3 { background-color: #A0C157; }
+#hivemind .parallax-stripe4 { background-color: #A9C65C; }
+
+/* Psychoanalysis Parallax Styles 
+
+#psychoanalysis {
+	z-index: 600;
+	background-image:
+		url(img/psychoanalysis/front_pots.png),
+		url(img/psychoanalysis/potoverlay.png),
+		url(img/psychoanalysis/dipper.png),
+		url(img/psychoanalysis/middle_balm1.png),
+		url(img/psychoanalysis/middle_balm2.png),
+		url(img/psychoanalysis/psychoanalysis.jpg);
+}
+
+#stripe-psychoanalysis a, #work-nav-psychoanalysis a { background: #F3BF0A; }
+#psychoanalysis .parallax-banner:hover .parallax-more { color: #F3BF0A; }
+#psychoanalysis .parallax-stripe1 { background-color: #F3BF0A; }
+#psychoanalysis .parallax-stripe2 { background-color: #F2C50C; }
+#psychoanalysis .parallax-stripe3 { background-color: #EFCE0F; }
+#psychoanalysis .parallax-stripe4 { background-color: #EDD811; }
+
+/* jaredaucourant Parallax Styles 
+
+#jaredaucourant {
+	z-index: 700;
+	background-image:
+		url(img/jaredaucourant/jaredaucourantfore.png),
+		url(img/jaredaucourant/jaredaucourantmid.png),
+		url(img/jaredaucourant/jaredaucourant.jpg);
+}
+
+#stripe-jaredaucourant a, #work-nav-jaredaucourant a { background: #af0202; }
+#jaredaucourant .parallax-banner:hover .parallax-more { color: #af0202; }
+#jaredaucourant .parallax-stripe1 { background-color: #af0202; }
+#jaredaucourant .parallax-stripe2 { background-color: #bc1717; }
+#jaredaucourant .parallax-stripe3 { background-color: #c62020; }
+#jaredaucourant .parallax-stripe4 { background-color: #d12828; }
+
+*/
+
+header {padding:30px;}
+h1#logo {width:389px; height:39px; background: url(../img/header/quantize-logo-caps.png) no-repeat; text-indent:100%; white-space:nowrap; overflow:hidden;}
+
+nav {background:#FFF;float:right; margin-top:-75px; font:bold 10px Helvetica, sans-serif; text-transform: uppercase;}
+nav ul {text-align:left;}
+nav ul li {float:left; display:inline;}
+nav ul li:hover {background:#E6E6E6;}
+nav ul li a {display:block;padding:15px 15px 15px 15px; color:#444; text-decoration: none;}
+nav ul li ul {position:absolute;width:110px;background:#FFF;}
+nav ul li ul li {width:110px;  margin-top:-5px; margin-left: -40px;}
+nav ul li ul li a {display:block;padding:15px 5px;color:#444;}
+nav ul li ul li:hover a {background:#F7F7F7;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
+
+.parallax-section {height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto;}
+
+
+section#preamble        {background:#333} /* grey *//*
+section#intro           {background:#482}  green */
+section#overview        {background:#115} /* blue */
+section#moodmatrix      {background:#685} /* moss */
+section#hivemind        {background:#733} /* scarlett */
+section#psychoanalysis  {background:#566} /* slate */
+section#jaredaucourant  {background:#054} /* chalkboard */
+
+
+
+
+
+#diffractedLogo-1 {
+	background: url(../img/intro/quantize-1.png)  no-repeat fixed; 
+	min-height: 151px;
+	padding: 0; margin: 0; 
+	width: 100%; 
+	max-width: 1084px;
+	position: relative; 
+	margin: 0 auto;
+	z-index: 10;
+}
+#diffractedLogo-2 {
+	background: url(../img/intro/quantize-2.png)  no-repeat fixed; 
+	min-height: 151px;
+	padding: 0; margin: 0; 
+	width: 100%; 
+	max-width: 1084px;
+	position: relative; 
+	margin: 0 auto; 
+	z-index: 9;
+}
+#diffractedLogo-3 {
+	background: url(../img/intro/quantize-3.png)  no-repeat fixed; 
+	min-height: 151px;
+	padding: 0; margin: 0; 
+	width: 100%; 
+	max-width: 1084px;
+	position: relative; 
+	margin: 0 auto; 
+	z-index: 8;
+}
+#diffractedLogo-4 {
+	background: url(../img/intro/quantize-4.png)  no-repeat fixed; 
+	min-height: 151px;
+	padding: 0; margin: 0; 
+	width: 100%; 
+	max-width: 1084px;
+	position: relative; 
+	margin: 0 auto; 
+	z-index: 7;
+}
+#diffractedLogo-5 {
+	background: url(../img/intro/quantize-5.png)  no-repeat fixed; 
+	min-height: 151px;
+	padding: 0; margin: 0; 
+	width: 100%; 
+	max-width: 1084px;
+	position: relative; 
+	margin: 0 auto; 
+	z-index: 6;
+}
